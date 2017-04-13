@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="skitbot1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>skitbot1</title>
+    <link rel="stylesheet" href="Styles/StyleSheet1.css" type="text/css"/>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="wrapper">
+            <div id = "banner">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/skitbot_logo.png"/>
+            </div>
+            <div id = "navigation">
+                <ul id="nav">
+                    <li><a href="default.aspx" runat="server">Home</a></li>
+                    <li><asp:HyperLink ID="HyperLink2" runat="server">New Stuff</asp:HyperLink></li>
+                    <li><asp:HyperLink ID="HyperLink3" runat="server">Items</asp:HyperLink></li>
+                    <li><a href="contact.aspx" runat="server">Contact Us</a></li>
+                </ul>
+            </div>
+            <div id = "content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>       
+    </div>
+    </form>
+    <footer>
+        &copy Skitbot 2017
+        <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+        <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a>
+
+    </footer>
+</body>
+</html>
