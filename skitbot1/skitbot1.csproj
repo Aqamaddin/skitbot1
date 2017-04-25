@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="contact.aspx" />
     <Content Include="default.aspx" />
+    <Content Include="googlemap.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
