@@ -5,17 +5,22 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <p><asp:Label ID="Label1" runat="server" Text="name"></asp:Label></p>
     <p><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></p>
+    <asp:RequiredFieldValidator ID="RFV" runat="server" ControlToValidate="Textbox1" ErrorMessage="key in your name" ValidationExpression="^[a-zA-Z\s]+$"></asp:RequiredFieldValidator>
 
     <p><asp:Label ID="Label2" runat="server" Text="Email"></asp:Label></p>
     <p><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></p>
-
+    <asp:RequiredFieldValidator ID="RFV2" runat="server" ControlToValidate="Textbox2" ErrorMessage="key in a valid email" ValidationExpression="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$"></asp:RequiredFieldValidator>
+    
     <p><asp:Label ID="Label3" runat="server" Text="Phone Number"></asp:Label></p>
     <p><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></p>
+    <asp:RequiredFieldValidator ID="RFV3" runat="server" ControlToValidate="Textbox3" ErrorMessage="key in a valid phone number" ValidationExpression="^[a-zA-Z\s]+$"></asp:RequiredFieldValidator>
 
     <p><asp:Label ID="Label4" runat="server" Text="Comment"></asp:Label></p>
     <p><asp:TextBox ID="TextBox4" runat="server" Rows="5" TextMode="MultiLine"></asp:TextBox></p>
 
-    <asp:Button ID="Button1" runat="server" Text="send" />
+    <p><asp:Button ID="Button1" OnClick="Button1_Click" runat="server" Text="send" /></p> 
+
+    <p> <asp:Label ID="Alert" runat="server"></asp:Label> </p>
 
     <h3>Our Location</h3>
     <div id="map" style="width:100%;height:400px;""></div>
