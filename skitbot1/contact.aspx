@@ -9,11 +9,12 @@
 
     <p><asp:Label ID="Label2" runat="server" Text="Email"></asp:Label></p>
     <p><asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></p>
-    <asp:RequiredFieldValidator ID="RFV2" runat="server" ControlToValidate="Textbox2" ErrorMessage="key in a valid email" ValidationExpression="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$"></asp:RequiredFieldValidator>
-    
+    <asp:RequiredFieldValidator ID="RFV2" runat="server" ControlToValidate="Textbox2" ErrorMessage="key a valid email" ValidationExpression="^[a-zA-Z\s]+$"></asp:RequiredFieldValidator>
+    <asp:RegularExpressionValidator ID="RFV3" runat="server" ErrorMessage="Key in a valid email" ControlToValidate="Textbox2" ValidationExpression="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$" />
+
     <p><asp:Label ID="Label3" runat="server" Text="Phone Number"></asp:Label></p>
     <p><asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></p>
-    <asp:RequiredFieldValidator ID="RFV3" runat="server" ControlToValidate="Textbox3" ErrorMessage="key in a valid phone number" ValidationExpression="^[a-zA-Z\s]+$"></asp:RequiredFieldValidator>
+    <asp:RequiredFieldValidator ID="RFV4" runat="server" ControlToValidate="Textbox3" ErrorMessage="key in a valid phone number" ValidationExpression="^[a-zA-Z\s]+$"></asp:RequiredFieldValidator>
 
     <p><asp:Label ID="Label4" runat="server" Text="Comment"></asp:Label></p>
     <p><asp:TextBox ID="TextBox4" runat="server" Rows="5" TextMode="MultiLine"></asp:TextBox></p>

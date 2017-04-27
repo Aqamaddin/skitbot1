@@ -67,6 +67,15 @@ namespace skitbot1 {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV2;
         
         /// <summary>
+        /// RFV3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RFV3;
+        
+        /// <summary>
         /// Label3 control.
         /// </summary>
         /// <remarks>
@@ -85,13 +94,13 @@ namespace skitbot1 {
         protected global::System.Web.UI.WebControls.TextBox TextBox3;
         
         /// <summary>
-        /// RFV3 control.
+        /// RFV4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV3;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RFV4;
         
         /// <summary>
         /// Label4 control.
