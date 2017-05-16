@@ -22,6 +22,9 @@
                     <li><a href="default.aspx" runat="server">Home</a></li>
                     <li><asp:HyperLink ID="HyperLink2" runat="server">New Stuff</asp:HyperLink></li>
                     <li><asp:HyperLink ID="HyperLink3" runat="server">Items</asp:HyperLink></li>
+                    <li><a href="registering.aspx" runat="server">Register</a></li>
+                    <li><a href="login.aspx" runat="server">Login</a></li>
+
                     <li><a href="contact.aspx" runat="server">Contact Us</a></li>
                 </ul>
             </div>
