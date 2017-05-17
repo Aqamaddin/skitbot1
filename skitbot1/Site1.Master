@@ -19,10 +19,10 @@
             </div>
             <div id = "navigation">
                 <ul id="nav">
-                    <li><a href="default.aspx" runat="server">Home</a></li>
-                    <li><a href="item.aspx" runat="server">Items</a></li>
-                    <li><a href="registering.aspx" runat="server">Register</a></li>
-                    <li><a href="login.aspx" runat="server">Login</a></li>
+                    <li><a href="~/default.aspx" runat="server">Home</a></li>
+                    <li><a href="~/item.aspx" runat="server">Items</a></li>
+                    <li><a href="~/registering.aspx" runat="server">Register</a></li>
+                    <li><a href="~/login.aspx" runat="server">Login</a></li>
 
                     <li><a href="contact.aspx" runat="server">Contact Us</a></li>
                 </ul>
