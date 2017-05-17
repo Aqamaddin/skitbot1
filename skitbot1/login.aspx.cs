@@ -20,7 +20,7 @@ namespace skitbot1
             if (user != null)
             {
                 LogUserIn(userManager, user);
-                Server.Transfer("login.aspx", true);
+                Server.Transfer("Logout.aspx", true);
             }
             else
             {
@@ -36,5 +36,10 @@ namespace skitbot1
         }
         protected void TextBox1_TextChanged(object sender, EventArgs e)
         { }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

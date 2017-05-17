@@ -16,6 +16,7 @@ namespace skitbot1
 
         }
 
+
         protected void Button1_Click(object sender, EventArgs e)
         {
             var identityDbContext = new IdentityDbContext("IdentityConnectionString");
@@ -23,20 +24,19 @@ namespace skitbot1
             var manager = new UserManager<IdentityUser>(userStore);
             var rolestore = new RoleStore<IdentityRole>(identityDbContext);
             var rolemanager = new RoleManager<IdentityRole>(rolestore);
-            var user = new IdentityUser() { UserName = TextBox5.Text, Email = TextBox6.Text };
-            IdentityResult result = manager.Create(user, TextBox7.Text);
+            var user = new IdentityUser() { UserName = TextBox1.Text, Email = TextBox2.Text };
+            IdentityResult result = manager.Create(user, TextBox3.Text);
             if (result.Succeeded)
             {
                 IdentityRole endUserRole = new IdentityRole("endUser");
                 rolemanager.Create(endUserRole);
-                Server.Transfer("login.aspx", true);
+                Server.Transfer("logout.aspx", true);
             }
             else
             {
                 Literal1.Text = "An error has occurred:" + result.Errors.FirstOrDefault();
 
             }
-            
         }
     }
 }

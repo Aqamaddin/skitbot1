@@ -7,10 +7,10 @@
     <br />
     <br />
     Password<br />
-    <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
+    <asp:TextBox ID="TextBox9" runat="server" TextMode="Password"></asp:TextBox>
     <br />
     <br />
-    <asp:Button ID="Button3" runat="server" Text="Enter" />
+    <asp:Button ID="Button3" runat="server" Text="Enter" OnClick="Button3_Click" />
     <br />
     <asp:Literal ID="Literal1" runat="server"></asp:Literal>
     <br />

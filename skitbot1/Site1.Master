@@ -20,8 +20,7 @@
             <div id = "navigation">
                 <ul id="nav">
                     <li><a href="default.aspx" runat="server">Home</a></li>
-                    <li><asp:HyperLink ID="HyperLink2" runat="server">New Stuff</asp:HyperLink></li>
-                    <li><asp:HyperLink ID="HyperLink3" runat="server">Items</asp:HyperLink></li>
+                    <li><a href="item.aspx" runat="server">Items</a></li>
                     <li><a href="registering.aspx" runat="server">Register</a></li>
                     <li><a href="login.aspx" runat="server">Login</a></li>
 
@@ -40,6 +39,7 @@
         <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
         <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
         <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a>
+        <a href="AdminPage.aspx">Admin</a>
 
     </footer>
 </body>
