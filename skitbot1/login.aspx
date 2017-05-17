@@ -2,16 +2,16 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-    Username<br />
+    Username<p />
     <asp:TextBox ID="TextBox8" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
-    <br />
-    <br />
-    Password<br />
+    <p />
+    <p />
+    Password<p />
     <asp:TextBox ID="TextBox9" runat="server" TextMode="Password"></asp:TextBox>
-    <br />
-    <br />
+    <p />
+    <p />
     <asp:Button ID="Button3" runat="server" Text="Enter" OnClick="Button3_Click" />
-    <br />
+    <p />
     <asp:Literal ID="Literal1" runat="server"></asp:Literal>
-    <br />
+    <p />
 </asp:Content>

@@ -3,11 +3,11 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 
-    Successfully Logs in<br />
-<br />
-<br />
-<br />
-<br />
+    Successfully Logs in<p />
+<p />
+<p />
+<p />
+<p />
     <asp:Button ID="Button1" runat="server" Text="Log Out" OnClick="Button1_Click" />
 
 </asp:Content>

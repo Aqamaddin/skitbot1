@@ -43,48 +43,48 @@
         <EditItemTemplate>
             ID:
             <asp:Label ID="IDLabel1" runat="server" Text='<%# Eval("ID") %>' />
-            <br />
+            <p />
             Name:
             <asp:TextBox ID="NameTextBox" runat="server" Text='<%# Bind("Name") %>' />
-            <br />
+            <p />
             Description:
             <asp:TextBox ID="DescriptionTextBox" runat="server" Text='<%# Bind("Description") %>' />
-            <br />
+            <p />
             Price:
             <asp:TextBox ID="PriceTextBox" runat="server" Text='<%# Bind("Price") %>' />
-            <br />
+            <p />
             <asp:LinkButton ID="UpdateButton" runat="server" CausesValidation="True" CommandName="Update" Text="Update" />
             &nbsp;<asp:LinkButton ID="UpdateCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
         </EditItemTemplate>
         <InsertItemTemplate>
             ID:
             <asp:TextBox ID="IDTextBox" runat="server" Text='<%# Bind("ID") %>' />
-            <br />
+            <p />
             Name:
             <asp:TextBox ID="NameTextBox" runat="server" Text='<%# Bind("Name") %>' />
-            <br />
+            <p />
             Description:
             <asp:TextBox ID="DescriptionTextBox" runat="server" Text='<%# Bind("Description") %>' />
-            <br />
+            <p />
             Price:
             <asp:TextBox ID="PriceTextBox" runat="server" Text='<%# Bind("Price") %>' />
-            <br />
+            <p />
             <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" />
             <asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
         </InsertItemTemplate>
         <ItemTemplate>
             ID:
             <asp:Label ID="IDLabel" runat="server" Text='<%# Eval("ID") %>' />
-            <br />
+            <p />
             Name:
             <asp:Label ID="NameLabel" runat="server" Text='<%# Bind("Name") %>' />
-            <br />
+            <p />
             Description:
             <asp:Label ID="DescriptionLabel" runat="server" Text='<%# Bind("Description") %>' />
-            <br />
+            <p />
             Price:
             <asp:Label ID="PriceLabel" runat="server" Text='<%# Bind("Price") %>' />
-            <br />
+            <p />
             <asp:LinkButton ID="EditButton" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" />
             &nbsp;<asp:LinkButton ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" />
             &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" />
