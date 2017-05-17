@@ -153,7 +153,6 @@
     <Content Include="item.aspx" />
     <Content Include="itemPage.aspx" />
     <Content Include="login.aspx" />
-    <Content Include="LoginSuccess.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -229,13 +228,6 @@
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="LoginSuccess.aspx.cs">
-      <DependentUpon>LoginSuccess.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LoginSuccess.aspx.designer.cs">
-      <DependentUpon>LoginSuccess.aspx</DependentUpon>
     </Compile>
     <Compile Include="Logout.aspx.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
